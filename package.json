@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "email": "justin@treehousetechnology.io",
-  "homepage": "https://treehousetechnology.github.io/react-typescript-s3-template/""license": "MIT",
+  "homepage": "https://treehousetechnology.github.io/react-typescript-s3-template/",
+  "license": "MIT",
   "scripts": {
     "build": "node scripts/build.js",
     "deploy:gh-pages": "yarn build && gh-pages -d build",
