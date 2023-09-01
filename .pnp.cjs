@@ -51,7 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-react-app", "npm:10.0.1"],\
             ["bfj", "npm:7.0.2"],\
             ["browserslist", "npm:4.21.10"],\
-            ["camelcase", "npm:6.3.0"],\
+            ["camelcase", "npm:8.0.0"],\
             ["case-sensitive-paths-webpack-plugin", "npm:2.4.0"],\
             ["css-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:6.8.1"],\
             ["css-minimizer-webpack-plugin", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:3.4.1"],\
@@ -7324,6 +7324,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/camelcase-npm-6.3.0-e5e42a0d15-8c96818a90.zip/node_modules/camelcase/",\
           "packageDependencies": [\
             ["camelcase", "npm:6.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:8.0.0", {\
+          "packageLocation": "./.yarn/cache/camelcase-npm-8.0.0-a3fa03dcc3-6da7abe997.zip/node_modules/camelcase/",\
+          "packageDependencies": [\
+            ["camelcase", "npm:8.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -18224,7 +18231,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-react-app", "npm:10.0.1"],\
             ["bfj", "npm:7.0.2"],\
             ["browserslist", "npm:4.21.10"],\
-            ["camelcase", "npm:6.3.0"],\
+            ["camelcase", "npm:8.0.0"],\
             ["case-sensitive-paths-webpack-plugin", "npm:2.4.0"],\
             ["css-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:6.8.1"],\
             ["css-minimizer-webpack-plugin", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:3.4.1"],\
