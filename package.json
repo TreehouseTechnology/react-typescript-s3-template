@@ -2,8 +2,8 @@
   "name": "typescript-react-s3-website-site",
   "version": "0.0.1",
   "private": true,
-  "email": "justinmakaila@gmail.com",
-  "license": "MIT",
+  "email": "justin@treehousetechnology.io",
+  "homepage": "https://treehousetechnology.github.io/react-typescript-s3-template/""license": "MIT",
   "scripts": {
     "build": "node scripts/build.js",
     "deploy:gh-pages": "yarn build && gh-pages -d build",
