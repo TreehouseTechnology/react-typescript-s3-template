@@ -12,12 +12,28 @@ then start the application locally using the following command:
 
 ## Deploying to AWS
 
-In order to deploy to AWS, you have to take the following steps:
+To deploy to AWS, there are two options:
+
+- Manual deploy
+- Automated deploy (via Github Actions)
+
+Both deployment strategies require configuring your AWS stack with the provided `aws-stack.yaml` file.
+
+Required steps:
+
 1. Deploy the CloudFormation Template from the project (`react-cors-spa-stack.yaml`) using AWS CLI or AWS Console
-2. Once your stack is deployed, from the "Output" tab, identify the S3 "Bucket" name
-3. Build the (using `yarn build`) app for distribution
-4. Upload the content of the `build` folder into the S3 bucket identified at step 2
-5. Access the application through the CloudFront distribution created at step 1
+2. Once your stack is deployed, from the "Output" tab, identify the "APIEndpoint" URL as well as the S3 "Bucket" name
+
+From here, manual deployment steps:
+
+1. Build the (using `yarn build`) app for distribution
+2. Upload the content of the `build` folder into the S3 bucket identified at step 2
+3. Access the application through the CloudFront distribution created at step 1
+
+For automated deploy via Github Actions:
+
+1. Add a new secret to your repository named `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` with the credentials of an IAM user with permissions to deploy CloudFormation stacks and upload content to S3.
+2. Uncomment the last step in `.github/workflows/deploy.yml`. This will trigger a deployment to AWS every time a new commit is pushed to the `main` branch.
 
 ## Available Scripts
 
