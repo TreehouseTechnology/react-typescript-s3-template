@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "email": "justinmakaila@gmail.com",
-  "homepage": "treehousetechnology.github.io/typescript-react-s3-template",
   "license": "MIT",
   "scripts": {
     "build": "node scripts/build.js",
