@@ -81,7 +81,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-refresh", "npm:0.11.0"],\
             ["react-router-dom", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:6.15.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=c3c19d"],\
-            ["resolve-url-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:4.0.0"],\
+            ["resolve-url-loader", "npm:5.0.0"],\
             ["sass-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:12.6.0"],\
             ["semver", "npm:7.5.4"],\
             ["source-map-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:3.0.2"],\
@@ -13696,13 +13696,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["picocolors", [\
-        ["npm:0.2.1", {\
-          "packageLocation": "./.yarn/cache/picocolors-npm-0.2.1-fa0e648c44-3b0f441f00.zip/node_modules/picocolors/",\
-          "packageDependencies": [\
-            ["picocolors", "npm:0.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:1.0.0", {\
           "packageLocation": "./.yarn/cache/picocolors-npm-1.0.0-d81e0b1927-a2e8092dd8.zip/node_modules/picocolors/",\
           "packageDependencies": [\
@@ -13759,15 +13752,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss", [\
-        ["npm:7.0.39", {\
-          "packageLocation": "./.yarn/cache/postcss-npm-7.0.39-0f8737296e-4ac793f506.zip/node_modules/postcss/",\
-          "packageDependencies": [\
-            ["postcss", "npm:7.0.39"],\
-            ["picocolors", "npm:0.2.1"],\
-            ["source-map", "npm:0.6.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:8.4.28", {\
           "packageLocation": "./.yarn/cache/postcss-npm-8.4.28-ce7cf45f10-f605c24a36.zip/node_modules/postcss/",\
           "packageDependencies": [\
@@ -16146,32 +16130,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["resolve-url-loader", [\
-        ["npm:4.0.0", {\
-          "packageLocation": "./.yarn/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/",\
+        ["npm:5.0.0", {\
+          "packageLocation": "./.yarn/cache/resolve-url-loader-npm-5.0.0-9b441067c9-6d483733a4.zip/node_modules/resolve-url-loader/",\
           "packageDependencies": [\
-            ["resolve-url-loader", "npm:4.0.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:4.0.0", {\
-          "packageLocation": "./.yarn/__virtual__/resolve-url-loader-virtual-800aa2ca81/0/cache/resolve-url-loader-npm-4.0.0-2a9c18d86b-8e5bcf9786.zip/node_modules/resolve-url-loader/",\
-          "packageDependencies": [\
-            ["resolve-url-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:4.0.0"],\
-            ["@types/rework", null],\
-            ["@types/rework-visit", null],\
+            ["resolve-url-loader", "npm:5.0.0"],\
             ["adjust-sourcemap-loader", "npm:4.0.0"],\
             ["convert-source-map", "npm:1.9.0"],\
             ["loader-utils", "npm:2.0.4"],\
-            ["postcss", "npm:7.0.39"],\
-            ["rework", null],\
-            ["rework-visit", null],\
+            ["postcss", "npm:8.4.29"],\
             ["source-map", "npm:0.6.1"]\
-          ],\
-          "packagePeers": [\
-            "@types/rework-visit",\
-            "@types/rework",\
-            "rework-visit",\
-            "rework"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -17824,7 +17791,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-refresh", "npm:0.11.0"],\
             ["react-router-dom", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:6.15.0"],\
             ["resolve", "patch:resolve@npm%3A1.22.4#~builtin<compat/resolve>::version=1.22.4&hash=c3c19d"],\
-            ["resolve-url-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:4.0.0"],\
+            ["resolve-url-loader", "npm:5.0.0"],\
             ["sass-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:12.6.0"],\
             ["semver", "npm:7.5.4"],\
             ["source-map-loader", "virtual:187b81070c142804d4a8ad103af15e6157e40385d4675a371bd0e9b6d07f56d673d2d3f107c314619a39f4d40243e7d87002976f20215b8cf787fc8380bc4d74#npm:3.0.2"],\
