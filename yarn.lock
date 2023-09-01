@@ -10691,7 +10691,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.5, postcss@npm:^8.4.21, postcss@npm:^8.4.23, postcss@npm:^8.4.4":
+"postcss@npm:^8.3.5, postcss@npm:^8.4.21, postcss@npm:^8.4.23":
   version: 8.4.28
   resolution: "postcss@npm:8.4.28"
   dependencies:
@@ -10699,6 +10699,17 @@ __metadata:
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
   checksum: f605c24a36f7e400bad379735fbfc893ccb8d293ad6d419bb824db77cdcb69f43d614ef35f9f7091f32ca588d130ec60dbcf53b366e6bf88a8a64bbeb3c05f6d
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.4.29":
+  version: 8.4.29
+  resolution: "postcss@npm:8.4.29"
+  dependencies:
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: dd6daa25e781db9ae5b651d9b7bfde0ec6e60e86a37da69a18eb4773d5ddd51e28fc4ff054fbdc04636a31462e6bf09a1e50986f69ac52b10d46b7457cd36d12
   languageName: node
   linkType: hard
 
@@ -12701,7 +12712,7 @@ __metadata:
     jest-resolve: ^27.4.2
     jest-watch-typeahead: ^1.0.0
     mini-css-extract-plugin: ^2.4.5
-    postcss: ^8.4.4
+    postcss: ^8.4.29
     postcss-flexbugs-fixes: ^5.0.2
     postcss-loader: ^6.2.1
     postcss-normalize: ^10.0.1
