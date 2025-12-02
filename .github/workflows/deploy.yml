@@ -37,7 +37,7 @@ jobs:
           path: ./build
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v5
         with:
           name: react
           path: ./build/
